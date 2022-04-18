@@ -7,7 +7,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
-
+//Code is added
 @Entity
 @Table(name = "employees")
 public class Employee {
@@ -27,6 +27,7 @@ public class Employee {
 	public long getId() {
 		return id;
 	}
+	//Code is added
 	public void setId(long id) {
 		this.id = id;
 	}

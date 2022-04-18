@@ -16,7 +16,7 @@ import org.springframework.web.servlet.ModelAndView;
 import com.bhupathi.springboot.model.Employee;
 import com.bhupathi.springboot.service.EmployeeService;
 
-
+//Code is added
 @Controller
 public class EmployeeController {
 	
@@ -62,7 +62,7 @@ public class EmployeeController {
 		return "redirect:/";
 	}
 	
-	
+	//Code is added
 	@GetMapping("/page/{pageNo}")
 	public String findPaginted(@PathVariable(value = "pageNo")int pageNo,
 			@RequestParam("sortField")String sortField,
